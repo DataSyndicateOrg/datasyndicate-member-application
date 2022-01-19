@@ -1,0 +1,87 @@
+.button-solid {
+    position: relative;
+    border: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    display: flex;
+    cursor:pointer;
+    z-index: 1;
+    overflow: hidden;
+    float: right;
+}
+
+.visible {
+    color:white;
+    z-index: 1;
+    background-color: transparent;
+}
+.main-page-element{
+    width: 250px;
+}
+
+.green {
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 2px;
+    font-size: smaller;
+}
+
+.green:hover {
+    color: #31e20d;
+    background: transparent;
+    cursor: pointer;
+    text-shadow:
+    0 0 7px #31e20d,
+    0 0 10px #31e20d,
+    0 0 151px #31e20d;
+  }
+
+  .small {
+      font-size: 18px;
+  }
+
+  .disabled {
+      /* color: greenyellow; */
+      border-style:dotted;
+      border-radius: 10px;
+      padding: 7px;
+      border-width: 2px;
+      font-size: 17px;
+  }
+
+  .disabled:hover {
+      cursor:default !important;
+  }
+
+  .red:hover {
+    color: #db0e0e;
+    background: transparent;
+    cursor: pointer;
+    text-shadow:
+    0 0 7px #e20d0d,
+    0 0 10px #e20d0d,
+    0 0 151px #e20d0d;
+  }
+
+
+  @media (max-width: 500px)  {
+    .disabled {
+        border-style:dotted;
+        border-radius: 10px;
+        padding: 7px;
+        border-width: 2px;
+        font-size: 12px;
+    }
+    .small {
+        font-size: 12px;
+    }
+}
+
+  
+
+
+
+
+
